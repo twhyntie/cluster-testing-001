@@ -1,2 +1,7 @@
-# cluster-testing-001
-Some code for putting the HPC through its paces.
+# Testing out the cluster
+
+This repository contains code for testing the cluster at scale.
+
+## Compiling the executable
+
+$ g++ cluster_test.cpp -L/share/apps/cmic/nifticlib/lib/ -lniftiio -lznz -lz -I/share/apps/cmic/nifticlib/include/nifti/ -o nifti_test
